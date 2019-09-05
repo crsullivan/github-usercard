@@ -92,13 +92,14 @@ body {
 }
 
 .card {
-  width: 100%;
+  width: 105%;
   padding: 20px;
   display: flex;
   border-radius: 5px;
   box-shadow: 0 1px 6px -2px #000;
   background-color: #FFF;
   margin-bottom: 30px;
+  height:330px;
 }
 
 .card img {
@@ -106,6 +107,10 @@ body {
   height: 150px;
   border-radius: 3px;
   margin-right: 20px;
+}
+
+.card img:last-child {
+  width: 550px;
 }
 
 .card .name {
